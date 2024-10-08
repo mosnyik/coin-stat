@@ -1,0 +1,44 @@
+{
+  "name": "coin-stat",
+  "version": "1.0.0",
+  "description": "Track the price, trading volume and market cap of btc and some other crypto weekly",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosnyik/coin-stat.git"
+  },
+  "keywords": [
+    "btc",
+    "stx",
+    "eth"
+  ],
+  "author": "mosnyik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosnyik/coin-stat/issues"
+  },
+  "homepage": "https://github.com/mosnyik/coin-stat#readme",
+  "devDependencies": {
+    "@types/firebase": "^3.2.1",
+    "@types/node": "^22.7.4",
+    "@types/node-cron": "^3.0.11",
+    "@vercel/node": "^3.2.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/cron": "^2.4.0",
+    "axios": "^1.7.7",
+    "cron": "^3.1.7",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "node-cron": "^3.0.3"
+  }
+}
